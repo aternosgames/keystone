@@ -28,7 +28,6 @@
     <packaging>pom</packaging>
 
     <properties>
-        <keystone.bukkit.version>1.14.2-R0.1-SNAPSHOT</keystone.bukkit.version> <!-- Minecraft 1.13 -->
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,20 +35,7 @@
 
     <modules>
         <module>shared</module>
-        <module>bukkit</module>
-        <module>bungee</module>
     </modules>
-
-    <repositories>
-        <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
-            <id>bungeecord-repo</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
